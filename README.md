@@ -37,10 +37,9 @@ Developer → GitHub Repository → ArgoCD → Kubernetes Cluster → Running Ap
 - Kubernetes self-healing
 - No manual kubectl apply usage
 
----
-
 ## Repository Structure
 
+```text
 gitops-k8s-deployment/
 ├── nginx-app/
 │   ├── Chart.yaml
@@ -49,8 +48,8 @@ gitops-k8s-deployment/
 │       ├── deployment.yaml
 │       └── service.yaml
 └── README.md
+```
 
----
 
 ## How It Works
 
